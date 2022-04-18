@@ -3660,3 +3660,754 @@
 2022-04-17 21:59:09,620:INFO:Rendering Visual
 2022-04-17 21:59:09,695:INFO:Visual Rendered Successfully
 2022-04-17 21:59:09,695:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:16:11,052:INFO:PyCaret NLP Module
+2022-04-17 22:16:11,053:INFO:version 2.3.10
+2022-04-17 22:16:11,053:INFO:Initializing setup()
+2022-04-17 22:16:11,053:INFO:USI: 4b40
+2022-04-17 22:16:11,053:INFO:setup(data=(1000, 7), target=en, custom_stopwords=['loan', 'income', 'usd', 'many', 'also', 'make', 'business', 'buy', 'sell', 'purchase', 'year', 'people', 'able', 'enable', 'old', 'woman', 'child', 'school'], html=True, session_id=101, log_experiment=True,
+                    experiment_name=EX001, log_plots=False, log_data=False, verbose=True)
+2022-04-17 22:16:11,053:INFO:Checking environment
+2022-04-17 22:16:11,053:INFO:python_version: 3.9.12
+2022-04-17 22:16:11,053:INFO:python_build: ('main', 'Apr  5 2022 06:56:58')
+2022-04-17 22:16:11,053:INFO:machine: x86_64
+2022-04-17 22:16:11,053:INFO:platform: Linux-5.4.0-107-generic-x86_64-with-glibc2.31
+2022-04-17 22:16:11,053:INFO:Memory: svmem(total=16698384384, available=11226689536, percent=32.8, used=4915310592, free=2645803008, active=7644250112, inactive=4881514496, buffers=2214322176, cached=6922948608, shared=201691136, slab=1169256448)
+2022-04-17 22:16:11,053:INFO:Physical Core: 4
+2022-04-17 22:16:11,054:INFO:Logical Core: 8
+2022-04-17 22:16:11,054:INFO:Checking libraries
+2022-04-17 22:16:11,054:INFO:pd==1.3.5
+2022-04-17 22:16:11,054:INFO:numpy==1.22.3
+2022-04-17 22:16:11,086:INFO:gensim==3.8.3
+2022-04-17 22:16:11,226:INFO:spacy==2.3.7
+2022-04-17 22:16:11,418:INFO:nltk==3.7
+2022-04-17 22:16:11,451:INFO:textblob==0.17.1
+2022-04-17 22:16:11,472:INFO:pyLDAvis==3.3.1
+2022-04-17 22:16:11,479:INFO:wordcloud==1.8.1
+2022-04-17 22:16:11,479:INFO:mlflow==1.25.1
+2022-04-17 22:16:11,479:INFO:Checking Exceptions
+2022-04-17 22:16:12,331:INFO:Preloading libraries
+2022-04-17 22:16:12,331:INFO:Preparing display monitor
+2022-04-17 22:16:12,339:INFO:Importing libraries
+2022-04-17 22:16:12,339:INFO:Declaring global variables
+2022-04-17 22:16:12,339:INFO:Input provided : dataframe
+2022-04-17 22:16:12,339:INFO:session_id set to : 101
+2022-04-17 22:16:12,339:INFO:Copying training dataset
+2022-04-17 22:16:12,340:INFO:Importing stopwords from nltk
+2022-04-17 22:16:12,643:INFO:Removing numeric characters from the text
+2022-04-17 22:16:12,663:INFO:Removing special characters from the text
+2022-04-17 22:16:12,802:INFO:Tokenizing Words
+2022-04-17 22:16:13,134:INFO:Removing stopwords
+2022-04-17 22:16:13,443:INFO:Extracting Bigrams
+2022-04-17 22:16:14,064:INFO:Extracting Trigrams
+2022-04-17 22:16:15,796:INFO:Lemmatizing tokens
+2022-04-17 22:16:19,900:INFO:Removing stopwords after lemmatizing
+2022-04-17 22:16:20,005:INFO:Creating corpus and dictionary
+2022-04-17 22:16:20,073:INFO:Compiling processed text
+2022-04-17 22:16:20,074:INFO:Compiling information grid
+2022-04-17 22:16:20,074:INFO:Creating Dashboard logs
+2022-04-17 22:16:20,220:INFO:setup() succesfully completed......................................
+2022-04-17 22:16:20,225:INFO:Initializing create_model()
+2022-04-17 22:16:20,226:INFO:create_model(model=lda, multi_core=True, num_topics=4, verbose=True, system=True)
+2022-04-17 22:16:20,226:INFO:Checking exceptions
+2022-04-17 22:16:20,226:INFO:Preloading libraries
+2022-04-17 22:16:20,226:INFO:Preparing display monitor
+2022-04-17 22:16:20,236:INFO:Defining topic model
+2022-04-17 22:16:20,236:INFO:Model: Latent Dirichlet Allocation
+2022-04-17 22:16:20,236:INFO:Defining num_topics parameter
+2022-04-17 22:16:20,236:INFO:num_topics set to: 4
+2022-04-17 22:16:20,239:INFO:LDA multi_core enabled
+2022-04-17 22:16:20,240:INFO:LdaMulticore imported successfully
+2022-04-17 22:16:23,130:INFO:LdaMulticore trained successfully
+2022-04-17 22:16:23,131:INFO:Creating Dashboard Logs
+2022-04-17 22:16:23,174:INFO:LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100)
+2022-04-17 22:16:23,174:INFO:create_model() succesfully completed......................................
+2022-04-17 22:16:23,220:INFO:Initializing assign_model()
+2022-04-17 22:16:23,221:INFO:assign_model(model=LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100), verbose=True)
+2022-04-17 22:16:23,221:INFO:Determining model type
+2022-04-17 22:16:23,221:INFO:model type: lda
+2022-04-17 22:16:23,221:INFO:Checking exceptions
+2022-04-17 22:16:23,221:INFO:Preloading libraries
+2022-04-17 22:16:23,221:INFO:Preparing display monitor
+2022-04-17 22:16:23,939:INFO:(1000, 13)
+2022-04-17 22:16:23,939:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:16:23,959:INFO:Initializing plot_model()
+2022-04-17 22:16:23,959:INFO:plot_model(model=None, plot=frequency, topic_num=None, save=False, system=True)
+2022-04-17 22:16:23,959:INFO:Checking exceptions
+2022-04-17 22:16:23,959:INFO:Importing libraries
+2022-04-17 22:16:24,077:INFO:save_param set to False
+2022-04-17 22:16:24,077:INFO:plot type: frequency
+2022-04-17 22:16:24,077:INFO:Rendering Visual
+2022-04-17 22:16:24,077:WARNING:topic_num set to None. Plot generated at corpus level.
+2022-04-17 22:16:24,078:INFO:Fitting CountVectorizer()
+2022-04-17 22:16:24,250:INFO:Visual Rendered Successfully
+2022-04-17 22:16:24,250:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:16:24,254:INFO:Initializing plot_model()
+2022-04-17 22:16:24,254:INFO:plot_model(model=None, plot=bigram, topic_num=None, save=False, system=True)
+2022-04-17 22:16:24,255:INFO:Checking exceptions
+2022-04-17 22:16:24,255:INFO:Importing libraries
+2022-04-17 22:16:24,264:INFO:save_param set to False
+2022-04-17 22:16:24,264:INFO:plot type: bigram
+2022-04-17 22:16:24,264:WARNING:topic_num set to None. Plot generated at corpus level.
+2022-04-17 22:16:24,264:INFO:Fitting CountVectorizer()
+2022-04-17 22:16:24,447:INFO:Rendering Visual
+2022-04-17 22:16:24,468:INFO:Visual Rendered Successfully
+2022-04-17 22:16:24,468:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:16:24,472:INFO:Initializing plot_model()
+2022-04-17 22:16:24,472:INFO:plot_model(model=LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100), plot=frequency, topic_num=Topic 1, save=False, system=True)
+2022-04-17 22:16:24,472:INFO:Checking exceptions
+2022-04-17 22:16:24,472:INFO:Importing libraries
+2022-04-17 22:16:24,481:INFO:save_param set to False
+2022-04-17 22:16:24,481:INFO:plot type: frequency
+2022-04-17 22:16:24,481:INFO:Rendering Visual
+2022-04-17 22:16:24,481:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:16:24,482:INFO:Initializing assign_model()
+2022-04-17 22:16:24,482:INFO:assign_model(model=LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-04-17 22:16:24,482:INFO:Determining model type
+2022-04-17 22:16:24,482:INFO:model type: lda
+2022-04-17 22:16:24,482:INFO:Checking exceptions
+2022-04-17 22:16:24,482:INFO:Preloading libraries
+2022-04-17 22:16:24,482:INFO:Preparing display monitor
+2022-04-17 22:16:25,244:INFO:(1000, 13)
+2022-04-17 22:16:25,244:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:16:25,245:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:16:25,246:INFO:Fitting CountVectorizer()
+2022-04-17 22:16:25,304:INFO:Visual Rendered Successfully
+2022-04-17 22:16:25,304:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:16:25,308:INFO:Initializing plot_model()
+2022-04-17 22:16:25,308:INFO:plot_model(model=LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100), plot=topic_distribution, topic_num=None, save=False, system=True)
+2022-04-17 22:16:25,308:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:16:25,308:INFO:Checking exceptions
+2022-04-17 22:16:25,308:INFO:Importing libraries
+2022-04-17 22:16:25,316:INFO:save_param set to False
+2022-04-17 22:16:25,316:INFO:plot type: topic_distribution
+2022-04-17 22:16:25,317:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:16:25,318:INFO:Initializing assign_model()
+2022-04-17 22:16:25,318:INFO:assign_model(model=LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-04-17 22:16:25,318:INFO:Determining model type
+2022-04-17 22:16:25,318:INFO:model type: lda
+2022-04-17 22:16:25,318:INFO:Checking exceptions
+2022-04-17 22:16:25,318:INFO:Preloading libraries
+2022-04-17 22:16:25,318:INFO:Preparing display monitor
+2022-04-17 22:16:26,199:INFO:(1000, 13)
+2022-04-17 22:16:26,199:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:16:26,199:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:16:26,204:INFO:Sorting Dataframe
+2022-04-17 22:16:26,205:INFO:Rendering Visual
+2022-04-17 22:16:26,290:INFO:Visual Rendered Successfully
+2022-04-17 22:16:26,290:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:16:26,298:INFO:Initializing plot_model()
+2022-04-17 22:16:26,298:INFO:plot_model(model=LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100), plot=tsne, topic_num=None, save=False, system=True)
+2022-04-17 22:16:26,298:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:16:26,298:INFO:Checking exceptions
+2022-04-17 22:16:26,298:INFO:Importing libraries
+2022-04-17 22:16:26,305:INFO:save_param set to False
+2022-04-17 22:16:26,305:INFO:plot type: tsne
+2022-04-17 22:16:26,306:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:16:26,306:INFO:Initializing assign_model()
+2022-04-17 22:16:26,306:INFO:assign_model(model=LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100), verbose=False)
+2022-04-17 22:16:26,306:INFO:Determining model type
+2022-04-17 22:16:26,306:INFO:model type: lda
+2022-04-17 22:16:26,306:INFO:Checking exceptions
+2022-04-17 22:16:26,306:INFO:Preloading libraries
+2022-04-17 22:16:26,306:INFO:Preparing display monitor
+2022-04-17 22:16:27,290:INFO:(1000, 13)
+2022-04-17 22:16:27,291:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:16:27,291:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:16:27,298:INFO:Fitting TSNE()
+2022-04-17 22:16:42,883:INFO:Sorting Dataframe
+2022-04-17 22:16:42,886:INFO:Rendering Visual
+2022-04-17 22:16:42,993:INFO:Visual Rendered Successfully
+2022-04-17 22:16:42,994:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:16:43,003:INFO:Initializing plot_model()
+2022-04-17 22:16:43,004:INFO:plot_model(model=LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100), plot=umap, topic_num=None, save=False, system=True)
+2022-04-17 22:16:43,004:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:16:43,004:INFO:Checking exceptions
+2022-04-17 22:16:43,004:INFO:Importing libraries
+2022-04-17 22:16:43,014:INFO:save_param set to False
+2022-04-17 22:16:43,014:INFO:plot type: umap
+2022-04-17 22:16:48,957:INFO:Fitting TfidfVectorizer()
+2022-04-17 22:16:49,008:INFO:Fitting KMeans()
+2022-04-17 22:16:49,289:INFO:Fitting UMAP()
+2022-04-17 22:16:55,171:INFO:Rendering Visual
+2022-04-17 22:16:55,265:INFO:Visual Rendered Successfully
+2022-04-17 22:16:55,266:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:16:55,300:INFO:Initializing save_model()
+2022-04-17 22:16:55,300:INFO:save_model(model=LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100), model_name=./models/NLP01, verbose=True)
+2022-04-17 22:16:55,361:INFO:LdaModel(num_terms=4636, num_topics=4, decay=0.5, chunksize=100)
+2022-04-17 22:16:55,361:INFO:save_model() succesfully completed......................................
+2022-04-17 22:16:55,417:INFO:PyCaret NLP Module
+2022-04-17 22:16:55,418:INFO:version 2.3.10
+2022-04-17 22:16:55,418:INFO:Initializing setup()
+2022-04-17 22:16:55,418:INFO:USI: a5ec
+2022-04-17 22:16:55,418:INFO:setup(data=(1000, 7), target=en, custom_stopwords=['loan', 'income', 'usd', 'many', 'also', 'make', 'business', 'buy', 'sell', 'purchase', 'year', 'people', 'able', 'enable', 'old', 'woman', 'child', 'school'], html=True, session_id=102, log_experiment=True,
+                    experiment_name=EX002, log_plots=False, log_data=False, verbose=True)
+2022-04-17 22:16:55,418:INFO:Checking environment
+2022-04-17 22:16:55,418:INFO:python_version: 3.9.12
+2022-04-17 22:16:55,418:INFO:python_build: ('main', 'Apr  5 2022 06:56:58')
+2022-04-17 22:16:55,418:INFO:machine: x86_64
+2022-04-17 22:16:55,418:INFO:platform: Linux-5.4.0-107-generic-x86_64-with-glibc2.31
+2022-04-17 22:16:55,418:INFO:Memory: svmem(total=16698384384, available=10910158848, percent=34.7, used=5216612352, free=2321448960, active=7948238848, inactive=4899299328, buffers=2214834176, cached=6945488896, shared=216551424, slab=1169731584)
+2022-04-17 22:16:55,418:INFO:Physical Core: 4
+2022-04-17 22:16:55,418:INFO:Logical Core: 8
+2022-04-17 22:16:55,418:INFO:Checking libraries
+2022-04-17 22:16:55,418:INFO:pd==1.3.5
+2022-04-17 22:16:55,419:INFO:numpy==1.22.3
+2022-04-17 22:16:55,419:INFO:gensim==3.8.3
+2022-04-17 22:16:55,419:INFO:spacy==2.3.7
+2022-04-17 22:16:55,419:INFO:nltk==3.7
+2022-04-17 22:16:55,419:INFO:textblob==0.17.1
+2022-04-17 22:16:55,419:INFO:pyLDAvis==3.3.1
+2022-04-17 22:16:55,419:INFO:wordcloud==1.8.1
+2022-04-17 22:16:55,419:INFO:mlflow==1.25.1
+2022-04-17 22:16:55,419:INFO:Checking Exceptions
+2022-04-17 22:16:55,750:INFO:Preloading libraries
+2022-04-17 22:16:55,750:INFO:Preparing display monitor
+2022-04-17 22:16:55,759:INFO:Importing libraries
+2022-04-17 22:16:55,759:INFO:Declaring global variables
+2022-04-17 22:16:55,760:INFO:Input provided : dataframe
+2022-04-17 22:16:55,760:INFO:session_id set to : 102
+2022-04-17 22:16:55,760:INFO:Copying training dataset
+2022-04-17 22:16:55,760:INFO:Importing stopwords from nltk
+2022-04-17 22:16:55,761:INFO:Removing numeric characters from the text
+2022-04-17 22:16:55,782:INFO:Removing special characters from the text
+2022-04-17 22:16:55,920:INFO:Tokenizing Words
+2022-04-17 22:16:56,243:INFO:Removing stopwords
+2022-04-17 22:16:56,489:INFO:Extracting Bigrams
+2022-04-17 22:16:57,152:INFO:Extracting Trigrams
+2022-04-17 22:16:58,264:INFO:Lemmatizing tokens
+2022-04-17 22:17:04,998:INFO:Removing stopwords after lemmatizing
+2022-04-17 22:17:05,110:INFO:Creating corpus and dictionary
+2022-04-17 22:17:05,182:INFO:Compiling processed text
+2022-04-17 22:17:05,184:INFO:Compiling information grid
+2022-04-17 22:17:05,184:INFO:Creating Dashboard logs
+2022-04-17 22:17:05,201:INFO:setup() succesfully completed......................................
+2022-04-17 22:17:05,219:INFO:Initializing create_model()
+2022-04-17 22:17:05,219:INFO:create_model(model=lsi, multi_core=True, num_topics=4, verbose=True, system=True)
+2022-04-17 22:17:05,219:INFO:Checking exceptions
+2022-04-17 22:17:05,219:INFO:Preloading libraries
+2022-04-17 22:17:05,219:INFO:Preparing display monitor
+2022-04-17 22:17:05,228:INFO:Defining topic model
+2022-04-17 22:17:05,229:INFO:Model: Latent Semantic Indexing
+2022-04-17 22:17:05,229:INFO:Defining num_topics parameter
+2022-04-17 22:17:05,229:INFO:num_topics set to: 4
+2022-04-17 22:17:05,234:INFO:LsiModel imported successfully
+2022-04-17 22:17:05,351:INFO:LsiModel trained successfully
+2022-04-17 22:17:05,354:INFO:Creating Dashboard Logs
+2022-04-17 22:17:05,427:INFO:LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000)
+2022-04-17 22:17:05,427:INFO:create_model() succesfully completed......................................
+2022-04-17 22:17:05,430:INFO:Initializing assign_model()
+2022-04-17 22:17:05,430:INFO:assign_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), verbose=True)
+2022-04-17 22:17:05,430:INFO:Determining model type
+2022-04-17 22:17:05,430:INFO:model type: lsi
+2022-04-17 22:17:05,431:INFO:Checking exceptions
+2022-04-17 22:17:05,431:INFO:Preloading libraries
+2022-04-17 22:17:05,431:INFO:Preparing display monitor
+2022-04-17 22:17:06,551:INFO:(1000, 12)
+2022-04-17 22:17:06,551:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:06,572:INFO:Initializing plot_model()
+2022-04-17 22:17:06,572:INFO:plot_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), plot=frequency, topic_num=None, save=False, system=True)
+2022-04-17 22:17:06,572:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:17:06,572:INFO:Checking exceptions
+2022-04-17 22:17:06,572:INFO:Importing libraries
+2022-04-17 22:17:06,581:INFO:save_param set to False
+2022-04-17 22:17:06,581:INFO:plot type: frequency
+2022-04-17 22:17:06,581:INFO:Rendering Visual
+2022-04-17 22:17:06,581:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:17:06,582:INFO:Initializing assign_model()
+2022-04-17 22:17:06,582:INFO:assign_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), verbose=False)
+2022-04-17 22:17:06,582:INFO:Determining model type
+2022-04-17 22:17:06,582:INFO:model type: lsi
+2022-04-17 22:17:06,582:INFO:Checking exceptions
+2022-04-17 22:17:06,582:INFO:Preloading libraries
+2022-04-17 22:17:06,582:INFO:Preparing display monitor
+2022-04-17 22:17:07,691:INFO:(1000, 12)
+2022-04-17 22:17:07,691:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:07,691:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:17:07,693:INFO:Fitting CountVectorizer()
+2022-04-17 22:17:07,776:INFO:Visual Rendered Successfully
+2022-04-17 22:17:07,777:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:07,780:INFO:Initializing plot_model()
+2022-04-17 22:17:07,780:INFO:plot_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), plot=bigram, topic_num=None, save=False, system=True)
+2022-04-17 22:17:07,780:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:17:07,780:INFO:Checking exceptions
+2022-04-17 22:17:07,780:INFO:Importing libraries
+2022-04-17 22:17:07,790:INFO:save_param set to False
+2022-04-17 22:17:07,790:INFO:plot type: bigram
+2022-04-17 22:17:07,790:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:17:07,790:INFO:Initializing assign_model()
+2022-04-17 22:17:07,790:INFO:assign_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), verbose=False)
+2022-04-17 22:17:07,790:INFO:Determining model type
+2022-04-17 22:17:07,790:INFO:model type: lsi
+2022-04-17 22:17:07,790:INFO:Checking exceptions
+2022-04-17 22:17:07,790:INFO:Preloading libraries
+2022-04-17 22:17:07,790:INFO:Preparing display monitor
+2022-04-17 22:17:08,924:INFO:(1000, 12)
+2022-04-17 22:17:08,924:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:08,924:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:17:08,926:INFO:Fitting CountVectorizer()
+2022-04-17 22:17:09,118:INFO:Rendering Visual
+2022-04-17 22:17:09,140:INFO:Visual Rendered Successfully
+2022-04-17 22:17:09,140:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:09,144:INFO:Initializing plot_model()
+2022-04-17 22:17:09,144:INFO:plot_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), plot=frequency, topic_num=Topic 0, save=False, system=True)
+2022-04-17 22:17:09,144:INFO:Checking exceptions
+2022-04-17 22:17:09,144:INFO:Importing libraries
+2022-04-17 22:17:09,154:INFO:save_param set to False
+2022-04-17 22:17:09,154:INFO:plot type: frequency
+2022-04-17 22:17:09,154:INFO:Rendering Visual
+2022-04-17 22:17:09,154:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:17:09,154:INFO:Initializing assign_model()
+2022-04-17 22:17:09,154:INFO:assign_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), verbose=False)
+2022-04-17 22:17:09,154:INFO:Determining model type
+2022-04-17 22:17:09,154:INFO:model type: lsi
+2022-04-17 22:17:09,154:INFO:Checking exceptions
+2022-04-17 22:17:09,154:INFO:Preloading libraries
+2022-04-17 22:17:09,154:INFO:Preparing display monitor
+2022-04-17 22:17:10,320:INFO:(1000, 12)
+2022-04-17 22:17:10,320:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:10,320:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:17:10,321:INFO:Fitting CountVectorizer()
+2022-04-17 22:17:10,538:INFO:Visual Rendered Successfully
+2022-04-17 22:17:10,538:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:10,543:INFO:Initializing plot_model()
+2022-04-17 22:17:10,543:INFO:plot_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), plot=topic_distribution, topic_num=None, save=False, system=True)
+2022-04-17 22:17:10,543:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:17:10,543:INFO:Checking exceptions
+2022-04-17 22:17:10,543:INFO:Importing libraries
+2022-04-17 22:17:10,553:INFO:save_param set to False
+2022-04-17 22:17:10,553:INFO:plot type: topic_distribution
+2022-04-17 22:17:10,554:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:17:10,555:INFO:Initializing assign_model()
+2022-04-17 22:17:10,555:INFO:assign_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), verbose=False)
+2022-04-17 22:17:10,555:INFO:Determining model type
+2022-04-17 22:17:10,555:INFO:model type: lsi
+2022-04-17 22:17:10,555:INFO:Checking exceptions
+2022-04-17 22:17:10,555:INFO:Preloading libraries
+2022-04-17 22:17:10,555:INFO:Preparing display monitor
+2022-04-17 22:17:11,755:INFO:(1000, 12)
+2022-04-17 22:17:11,755:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:11,755:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:17:11,760:INFO:Sorting Dataframe
+2022-04-17 22:17:11,762:INFO:Rendering Visual
+2022-04-17 22:17:11,817:INFO:Visual Rendered Successfully
+2022-04-17 22:17:11,817:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:11,822:INFO:Initializing plot_model()
+2022-04-17 22:17:11,822:INFO:plot_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), plot=tsne, topic_num=None, save=False, system=True)
+2022-04-17 22:17:11,822:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:17:11,822:INFO:Checking exceptions
+2022-04-17 22:17:11,822:INFO:Importing libraries
+2022-04-17 22:17:11,831:INFO:save_param set to False
+2022-04-17 22:17:11,831:INFO:plot type: tsne
+2022-04-17 22:17:11,831:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:17:11,831:INFO:Initializing assign_model()
+2022-04-17 22:17:11,831:INFO:assign_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), verbose=False)
+2022-04-17 22:17:11,831:INFO:Determining model type
+2022-04-17 22:17:11,831:INFO:model type: lsi
+2022-04-17 22:17:11,831:INFO:Checking exceptions
+2022-04-17 22:17:11,831:INFO:Preloading libraries
+2022-04-17 22:17:11,831:INFO:Preparing display monitor
+2022-04-17 22:17:12,975:INFO:(1000, 12)
+2022-04-17 22:17:12,975:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:12,975:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:17:12,978:INFO:Fitting TSNE()
+2022-04-17 22:17:28,573:INFO:Sorting Dataframe
+2022-04-17 22:17:28,576:INFO:Rendering Visual
+2022-04-17 22:17:28,673:INFO:Visual Rendered Successfully
+2022-04-17 22:17:28,674:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:28,681:INFO:Initializing plot_model()
+2022-04-17 22:17:28,681:INFO:plot_model(model=LsiModel(num_terms=4636, num_topics=4, decay=1.0, chunksize=20000), plot=umap, topic_num=None, save=False, system=True)
+2022-04-17 22:17:28,682:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:17:28,682:INFO:Checking exceptions
+2022-04-17 22:17:28,682:INFO:Importing libraries
+2022-04-17 22:17:28,722:INFO:save_param set to False
+2022-04-17 22:17:28,722:INFO:plot type: umap
+2022-04-17 22:17:28,722:INFO:Fitting TfidfVectorizer()
+2022-04-17 22:17:28,763:INFO:Fitting KMeans()
+2022-04-17 22:17:28,984:INFO:Fitting UMAP()
+2022-04-17 22:17:31,362:INFO:Rendering Visual
+2022-04-17 22:17:31,452:INFO:Visual Rendered Successfully
+2022-04-17 22:17:31,452:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:31,457:INFO:PyCaret NLP Module
+2022-04-17 22:17:31,457:INFO:version 2.3.10
+2022-04-17 22:17:31,457:INFO:Initializing setup()
+2022-04-17 22:17:31,457:INFO:USI: 4a86
+2022-04-17 22:17:31,458:INFO:setup(data=(1000, 7), target=en, custom_stopwords=['loan', 'income', 'usd', 'many', 'also', 'make', 'business', 'buy', 'sell', 'purchase', 'year', 'people', 'able', 'enable', 'old', 'woman', 'child', 'school'], html=True, session_id=103, log_experiment=True,
+                    experiment_name=EX003, log_plots=False, log_data=False, verbose=True)
+2022-04-17 22:17:31,458:INFO:Checking environment
+2022-04-17 22:17:31,458:INFO:python_version: 3.9.12
+2022-04-17 22:17:31,458:INFO:python_build: ('main', 'Apr  5 2022 06:56:58')
+2022-04-17 22:17:31,458:INFO:machine: x86_64
+2022-04-17 22:17:31,458:INFO:platform: Linux-5.4.0-107-generic-x86_64-with-glibc2.31
+2022-04-17 22:17:31,458:INFO:Memory: svmem(total=16698384384, available=10790424576, percent=35.4, used=5331857408, free=2200117248, active=8062849024, inactive=4903981056, buffers=2215170048, cached=6951239680, shared=221437952, slab=1169911808)
+2022-04-17 22:17:31,459:INFO:Physical Core: 4
+2022-04-17 22:17:31,459:INFO:Logical Core: 8
+2022-04-17 22:17:31,459:INFO:Checking libraries
+2022-04-17 22:17:31,459:INFO:pd==1.3.5
+2022-04-17 22:17:31,459:INFO:numpy==1.22.3
+2022-04-17 22:17:31,459:INFO:gensim==3.8.3
+2022-04-17 22:17:31,459:INFO:spacy==2.3.7
+2022-04-17 22:17:31,459:INFO:nltk==3.7
+2022-04-17 22:17:31,459:INFO:textblob==0.17.1
+2022-04-17 22:17:31,459:INFO:pyLDAvis==3.3.1
+2022-04-17 22:17:31,459:INFO:wordcloud==1.8.1
+2022-04-17 22:17:31,459:INFO:mlflow==1.25.1
+2022-04-17 22:17:31,459:INFO:Checking Exceptions
+2022-04-17 22:17:31,876:INFO:Preloading libraries
+2022-04-17 22:17:31,876:INFO:Preparing display monitor
+2022-04-17 22:17:31,884:INFO:Importing libraries
+2022-04-17 22:17:31,885:INFO:Declaring global variables
+2022-04-17 22:17:31,885:INFO:Input provided : dataframe
+2022-04-17 22:17:31,885:INFO:session_id set to : 103
+2022-04-17 22:17:31,885:INFO:Copying training dataset
+2022-04-17 22:17:31,885:INFO:Importing stopwords from nltk
+2022-04-17 22:17:31,886:INFO:Removing numeric characters from the text
+2022-04-17 22:17:31,908:INFO:Removing special characters from the text
+2022-04-17 22:17:32,053:INFO:Tokenizing Words
+2022-04-17 22:17:32,329:INFO:Removing stopwords
+2022-04-17 22:17:32,585:INFO:Extracting Bigrams
+2022-04-17 22:17:33,129:INFO:Extracting Trigrams
+2022-04-17 22:17:34,212:INFO:Lemmatizing tokens
+2022-04-17 22:17:39,392:INFO:Removing stopwords after lemmatizing
+2022-04-17 22:17:39,513:INFO:Creating corpus and dictionary
+2022-04-17 22:17:39,590:INFO:Compiling processed text
+2022-04-17 22:17:39,592:INFO:Compiling information grid
+2022-04-17 22:17:39,592:INFO:Creating Dashboard logs
+2022-04-17 22:17:39,615:INFO:setup() succesfully completed......................................
+2022-04-17 22:17:39,634:INFO:Initializing create_model()
+2022-04-17 22:17:39,635:INFO:create_model(model=hdp, multi_core=True, num_topics=4, verbose=True, system=True)
+2022-04-17 22:17:39,635:INFO:Checking exceptions
+2022-04-17 22:17:39,635:INFO:Preloading libraries
+2022-04-17 22:17:39,635:INFO:Preparing display monitor
+2022-04-17 22:17:39,647:INFO:Defining topic model
+2022-04-17 22:17:39,648:INFO:Model: Hierarchical Dirichlet Process
+2022-04-17 22:17:39,648:INFO:Defining num_topics parameter
+2022-04-17 22:17:39,648:INFO:num_topics set to: 4
+2022-04-17 22:17:39,652:INFO:HdpModel imported successfully
+2022-04-17 22:17:41,224:INFO:HdpModel trained successfully
+2022-04-17 22:17:41,225:INFO:Creating Dashboard Logs
+2022-04-17 22:17:41,349:INFO:<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>
+2022-04-17 22:17:41,349:INFO:create_model() succesfully completed......................................
+2022-04-17 22:17:41,353:INFO:Initializing assign_model()
+2022-04-17 22:17:41,353:INFO:assign_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, verbose=True)
+2022-04-17 22:17:41,353:INFO:Determining model type
+2022-04-17 22:17:41,353:INFO:model type: hdp
+2022-04-17 22:17:41,353:INFO:Checking exceptions
+2022-04-17 22:17:41,353:INFO:Preloading libraries
+2022-04-17 22:17:41,353:INFO:Preparing display monitor
+2022-04-17 22:17:42,870:INFO:(1000, 12)
+2022-04-17 22:17:42,870:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:42,890:INFO:Initializing plot_model()
+2022-04-17 22:17:42,890:INFO:plot_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, plot=frequency, topic_num=None, save=False, system=True)
+2022-04-17 22:17:42,890:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:17:42,891:INFO:Checking exceptions
+2022-04-17 22:17:42,891:INFO:Importing libraries
+2022-04-17 22:17:42,899:INFO:save_param set to False
+2022-04-17 22:17:42,899:INFO:plot type: frequency
+2022-04-17 22:17:42,899:INFO:Rendering Visual
+2022-04-17 22:17:42,899:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:17:42,899:INFO:Initializing assign_model()
+2022-04-17 22:17:42,900:INFO:assign_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, verbose=False)
+2022-04-17 22:17:42,900:INFO:Determining model type
+2022-04-17 22:17:42,900:INFO:model type: hdp
+2022-04-17 22:17:42,900:INFO:Checking exceptions
+2022-04-17 22:17:42,900:INFO:Preloading libraries
+2022-04-17 22:17:42,900:INFO:Preparing display monitor
+2022-04-17 22:17:44,390:INFO:(1000, 12)
+2022-04-17 22:17:44,390:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:44,390:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:17:44,391:INFO:Fitting CountVectorizer()
+2022-04-17 22:17:44,472:INFO:Visual Rendered Successfully
+2022-04-17 22:17:44,472:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:44,481:INFO:Initializing plot_model()
+2022-04-17 22:17:44,481:INFO:plot_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, plot=bigram, topic_num=None, save=False, system=True)
+2022-04-17 22:17:44,481:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:17:44,481:INFO:Checking exceptions
+2022-04-17 22:17:44,481:INFO:Importing libraries
+2022-04-17 22:17:44,491:INFO:save_param set to False
+2022-04-17 22:17:44,491:INFO:plot type: bigram
+2022-04-17 22:17:44,491:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:17:44,492:INFO:Initializing assign_model()
+2022-04-17 22:17:44,492:INFO:assign_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, verbose=False)
+2022-04-17 22:17:44,492:INFO:Determining model type
+2022-04-17 22:17:44,492:INFO:model type: hdp
+2022-04-17 22:17:44,492:INFO:Checking exceptions
+2022-04-17 22:17:44,492:INFO:Preloading libraries
+2022-04-17 22:17:44,492:INFO:Preparing display monitor
+2022-04-17 22:17:46,040:INFO:(1000, 12)
+2022-04-17 22:17:46,040:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:46,040:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:17:46,041:INFO:Fitting CountVectorizer()
+2022-04-17 22:17:46,196:INFO:Rendering Visual
+2022-04-17 22:17:46,220:INFO:Visual Rendered Successfully
+2022-04-17 22:17:46,220:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:46,224:INFO:Initializing plot_model()
+2022-04-17 22:17:46,224:INFO:plot_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, plot=frequency, topic_num=Topic 0, save=False, system=True)
+2022-04-17 22:17:46,224:INFO:Checking exceptions
+2022-04-17 22:17:46,224:INFO:Importing libraries
+2022-04-17 22:17:46,234:INFO:save_param set to False
+2022-04-17 22:17:46,234:INFO:plot type: frequency
+2022-04-17 22:17:46,234:INFO:Rendering Visual
+2022-04-17 22:17:46,234:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:17:46,234:INFO:Initializing assign_model()
+2022-04-17 22:17:46,234:INFO:assign_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, verbose=False)
+2022-04-17 22:17:46,234:INFO:Determining model type
+2022-04-17 22:17:46,234:INFO:model type: hdp
+2022-04-17 22:17:46,234:INFO:Checking exceptions
+2022-04-17 22:17:46,234:INFO:Preloading libraries
+2022-04-17 22:17:46,234:INFO:Preparing display monitor
+2022-04-17 22:17:47,750:INFO:(1000, 12)
+2022-04-17 22:17:47,750:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:47,751:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:17:47,752:INFO:Fitting CountVectorizer()
+2022-04-17 22:17:47,807:INFO:Visual Rendered Successfully
+2022-04-17 22:17:47,807:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:47,811:INFO:Initializing plot_model()
+2022-04-17 22:17:47,811:INFO:plot_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, plot=topic_distribution, topic_num=None, save=False, system=True)
+2022-04-17 22:17:47,811:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:17:47,811:INFO:Checking exceptions
+2022-04-17 22:17:47,811:INFO:Importing libraries
+2022-04-17 22:17:47,821:INFO:save_param set to False
+2022-04-17 22:17:47,821:INFO:plot type: topic_distribution
+2022-04-17 22:17:47,845:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:17:47,845:INFO:Initializing assign_model()
+2022-04-17 22:17:47,845:INFO:assign_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, verbose=False)
+2022-04-17 22:17:47,845:INFO:Determining model type
+2022-04-17 22:17:47,845:INFO:model type: hdp
+2022-04-17 22:17:47,845:INFO:Checking exceptions
+2022-04-17 22:17:47,845:INFO:Preloading libraries
+2022-04-17 22:17:47,845:INFO:Preparing display monitor
+2022-04-17 22:17:49,444:INFO:(1000, 12)
+2022-04-17 22:17:49,444:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:49,445:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:17:49,448:INFO:Sorting Dataframe
+2022-04-17 22:17:49,449:INFO:Rendering Visual
+2022-04-17 22:17:49,480:INFO:Visual Rendered Successfully
+2022-04-17 22:17:49,480:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:49,483:INFO:Initializing plot_model()
+2022-04-17 22:17:49,483:INFO:plot_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, plot=tsne, topic_num=None, save=False, system=True)
+2022-04-17 22:17:49,483:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:17:49,483:INFO:Checking exceptions
+2022-04-17 22:17:49,483:INFO:Importing libraries
+2022-04-17 22:17:49,492:INFO:save_param set to False
+2022-04-17 22:17:49,492:INFO:plot type: tsne
+2022-04-17 22:17:49,492:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:17:49,492:INFO:Initializing assign_model()
+2022-04-17 22:17:49,492:INFO:assign_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, verbose=False)
+2022-04-17 22:17:49,493:INFO:Determining model type
+2022-04-17 22:17:49,493:INFO:model type: hdp
+2022-04-17 22:17:49,493:INFO:Checking exceptions
+2022-04-17 22:17:49,493:INFO:Preloading libraries
+2022-04-17 22:17:49,493:INFO:Preparing display monitor
+2022-04-17 22:17:50,973:INFO:(1000, 12)
+2022-04-17 22:17:50,973:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:17:50,973:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:17:50,976:INFO:Fitting TSNE()
+2022-04-17 22:17:59,769:INFO:Sorting Dataframe
+2022-04-17 22:17:59,771:INFO:Rendering Visual
+2022-04-17 22:17:59,816:INFO:Visual Rendered Successfully
+2022-04-17 22:17:59,816:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:17:59,821:INFO:Initializing plot_model()
+2022-04-17 22:17:59,821:INFO:plot_model(model=<gensim.models.hdpmodel.HdpModel object at 0x7f44f1b68c40>, plot=umap, topic_num=None, save=False, system=True)
+2022-04-17 22:17:59,821:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:17:59,821:INFO:Checking exceptions
+2022-04-17 22:17:59,821:INFO:Importing libraries
+2022-04-17 22:17:59,832:INFO:save_param set to False
+2022-04-17 22:17:59,832:INFO:plot type: umap
+2022-04-17 22:17:59,832:INFO:Fitting TfidfVectorizer()
+2022-04-17 22:17:59,867:INFO:Fitting KMeans()
+2022-04-17 22:18:00,060:INFO:Fitting UMAP()
+2022-04-17 22:18:01,969:INFO:Rendering Visual
+2022-04-17 22:18:02,043:INFO:Visual Rendered Successfully
+2022-04-17 22:18:02,043:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:18:02,048:INFO:PyCaret NLP Module
+2022-04-17 22:18:02,048:INFO:version 2.3.10
+2022-04-17 22:18:02,048:INFO:Initializing setup()
+2022-04-17 22:18:02,048:INFO:USI: 7ede
+2022-04-17 22:18:02,048:INFO:setup(data=(1000, 7), target=en, custom_stopwords=['loan', 'income', 'usd', 'many', 'also', 'make', 'business', 'buy', 'sell', 'purchase', 'year', 'people', 'able', 'enable', 'old', 'woman', 'child', 'school'], html=True, session_id=103, log_experiment=True,
+                    experiment_name=EX004, log_plots=False, log_data=False, verbose=True)
+2022-04-17 22:18:02,048:INFO:Checking environment
+2022-04-17 22:18:02,048:INFO:python_version: 3.9.12
+2022-04-17 22:18:02,048:INFO:python_build: ('main', 'Apr  5 2022 06:56:58')
+2022-04-17 22:18:02,049:INFO:machine: x86_64
+2022-04-17 22:18:02,049:INFO:platform: Linux-5.4.0-107-generic-x86_64-with-glibc2.31
+2022-04-17 22:18:02,049:INFO:Memory: svmem(total=16698384384, available=10663264256, percent=36.1, used=5443551232, free=2077487104, active=8181997568, inactive=4917592064, buffers=2214547456, cached=6962798592, shared=236896256, slab=1169752064)
+2022-04-17 22:18:02,049:INFO:Physical Core: 4
+2022-04-17 22:18:02,049:INFO:Logical Core: 8
+2022-04-17 22:18:02,049:INFO:Checking libraries
+2022-04-17 22:18:02,049:INFO:pd==1.3.5
+2022-04-17 22:18:02,049:INFO:numpy==1.22.3
+2022-04-17 22:18:02,049:INFO:gensim==3.8.3
+2022-04-17 22:18:02,049:INFO:spacy==2.3.7
+2022-04-17 22:18:02,049:INFO:nltk==3.7
+2022-04-17 22:18:02,049:INFO:textblob==0.17.1
+2022-04-17 22:18:02,049:INFO:pyLDAvis==3.3.1
+2022-04-17 22:18:02,049:INFO:wordcloud==1.8.1
+2022-04-17 22:18:02,050:INFO:mlflow==1.25.1
+2022-04-17 22:18:02,050:INFO:Checking Exceptions
+2022-04-17 22:18:02,503:INFO:Preloading libraries
+2022-04-17 22:18:02,503:INFO:Preparing display monitor
+2022-04-17 22:18:02,511:INFO:Importing libraries
+2022-04-17 22:18:02,511:INFO:Declaring global variables
+2022-04-17 22:18:02,511:INFO:Input provided : dataframe
+2022-04-17 22:18:02,511:INFO:session_id set to : 103
+2022-04-17 22:18:02,511:INFO:Copying training dataset
+2022-04-17 22:18:02,512:INFO:Importing stopwords from nltk
+2022-04-17 22:18:02,512:INFO:Removing numeric characters from the text
+2022-04-17 22:18:02,533:INFO:Removing special characters from the text
+2022-04-17 22:18:02,686:INFO:Tokenizing Words
+2022-04-17 22:18:03,015:INFO:Removing stopwords
+2022-04-17 22:18:03,317:INFO:Extracting Bigrams
+2022-04-17 22:18:04,025:INFO:Extracting Trigrams
+2022-04-17 22:18:05,190:INFO:Lemmatizing tokens
+2022-04-17 22:18:10,867:INFO:Removing stopwords after lemmatizing
+2022-04-17 22:18:10,979:INFO:Creating corpus and dictionary
+2022-04-17 22:18:11,049:INFO:Compiling processed text
+2022-04-17 22:18:11,050:INFO:Compiling information grid
+2022-04-17 22:18:11,051:INFO:Creating Dashboard logs
+2022-04-17 22:18:11,072:INFO:setup() succesfully completed......................................
+2022-04-17 22:18:11,090:INFO:Initializing create_model()
+2022-04-17 22:18:11,090:INFO:create_model(model=rp, multi_core=True, num_topics=4, verbose=True, system=True)
+2022-04-17 22:18:11,090:INFO:Checking exceptions
+2022-04-17 22:18:11,090:INFO:Preloading libraries
+2022-04-17 22:18:11,090:INFO:Preparing display monitor
+2022-04-17 22:18:11,103:INFO:Defining topic model
+2022-04-17 22:18:11,103:INFO:Model: Random Projections
+2022-04-17 22:18:11,103:INFO:Defining num_topics parameter
+2022-04-17 22:18:11,103:INFO:num_topics set to: 4
+2022-04-17 22:18:11,109:INFO:RpModel imported successfully
+2022-04-17 22:18:11,110:INFO:RpModel trained successfully
+2022-04-17 22:18:11,110:INFO:Creating Dashboard Logs
+2022-04-17 22:18:11,139:INFO:RpModel(num_terms=4636, num_topics=4)
+2022-04-17 22:18:11,139:INFO:create_model() succesfully completed......................................
+2022-04-17 22:18:11,142:INFO:Initializing assign_model()
+2022-04-17 22:18:11,142:INFO:assign_model(model=RpModel(num_terms=4636, num_topics=4), verbose=True)
+2022-04-17 22:18:11,142:INFO:Determining model type
+2022-04-17 22:18:11,142:INFO:model type: rp
+2022-04-17 22:18:11,142:INFO:Checking exceptions
+2022-04-17 22:18:11,142:INFO:Preloading libraries
+2022-04-17 22:18:11,142:INFO:Preparing display monitor
+2022-04-17 22:18:12,575:INFO:(1000, 12)
+2022-04-17 22:18:12,575:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:18:12,600:INFO:Initializing plot_model()
+2022-04-17 22:18:12,600:INFO:plot_model(model=RpModel(num_terms=4636, num_topics=4), plot=frequency, topic_num=None, save=False, system=True)
+2022-04-17 22:18:12,600:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:18:12,600:INFO:Checking exceptions
+2022-04-17 22:18:12,600:INFO:Importing libraries
+2022-04-17 22:18:12,609:INFO:save_param set to False
+2022-04-17 22:18:12,609:INFO:plot type: frequency
+2022-04-17 22:18:12,609:INFO:Rendering Visual
+2022-04-17 22:18:12,609:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:18:12,609:INFO:Initializing assign_model()
+2022-04-17 22:18:12,609:INFO:assign_model(model=RpModel(num_terms=4636, num_topics=4), verbose=False)
+2022-04-17 22:18:12,609:INFO:Determining model type
+2022-04-17 22:18:12,609:INFO:model type: rp
+2022-04-17 22:18:12,609:INFO:Checking exceptions
+2022-04-17 22:18:12,609:INFO:Preloading libraries
+2022-04-17 22:18:12,609:INFO:Preparing display monitor
+2022-04-17 22:18:14,080:INFO:(1000, 12)
+2022-04-17 22:18:14,080:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:18:14,080:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:18:14,082:INFO:Fitting CountVectorizer()
+2022-04-17 22:18:14,430:INFO:Visual Rendered Successfully
+2022-04-17 22:18:14,430:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:18:14,434:INFO:Initializing plot_model()
+2022-04-17 22:18:14,434:INFO:plot_model(model=RpModel(num_terms=4636, num_topics=4), plot=bigram, topic_num=None, save=False, system=True)
+2022-04-17 22:18:14,434:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:18:14,434:INFO:Checking exceptions
+2022-04-17 22:18:14,436:INFO:Importing libraries
+2022-04-17 22:18:14,446:INFO:save_param set to False
+2022-04-17 22:18:14,446:INFO:plot type: bigram
+2022-04-17 22:18:14,446:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:18:14,446:INFO:Initializing assign_model()
+2022-04-17 22:18:14,446:INFO:assign_model(model=RpModel(num_terms=4636, num_topics=4), verbose=False)
+2022-04-17 22:18:14,446:INFO:Determining model type
+2022-04-17 22:18:14,446:INFO:model type: rp
+2022-04-17 22:18:14,446:INFO:Checking exceptions
+2022-04-17 22:18:14,446:INFO:Preloading libraries
+2022-04-17 22:18:14,446:INFO:Preparing display monitor
+2022-04-17 22:18:16,220:INFO:(1000, 12)
+2022-04-17 22:18:16,220:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:18:16,220:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:18:16,221:INFO:Fitting CountVectorizer()
+2022-04-17 22:18:16,247:INFO:Rendering Visual
+2022-04-17 22:18:16,267:INFO:Visual Rendered Successfully
+2022-04-17 22:18:16,267:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:18:16,271:INFO:Initializing plot_model()
+2022-04-17 22:18:16,271:INFO:plot_model(model=RpModel(num_terms=4636, num_topics=4), plot=frequency, topic_num=Topic 0, save=False, system=True)
+2022-04-17 22:18:16,271:INFO:Checking exceptions
+2022-04-17 22:18:16,271:INFO:Importing libraries
+2022-04-17 22:18:16,281:INFO:save_param set to False
+2022-04-17 22:18:16,281:INFO:plot type: frequency
+2022-04-17 22:18:16,281:INFO:Rendering Visual
+2022-04-17 22:18:16,281:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:18:16,281:INFO:Initializing assign_model()
+2022-04-17 22:18:16,281:INFO:assign_model(model=RpModel(num_terms=4636, num_topics=4), verbose=False)
+2022-04-17 22:18:16,281:INFO:Determining model type
+2022-04-17 22:18:16,281:INFO:model type: rp
+2022-04-17 22:18:16,281:INFO:Checking exceptions
+2022-04-17 22:18:16,281:INFO:Preloading libraries
+2022-04-17 22:18:16,281:INFO:Preparing display monitor
+2022-04-17 22:18:17,876:INFO:(1000, 12)
+2022-04-17 22:18:17,876:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:18:17,877:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:18:17,878:INFO:Fitting CountVectorizer()
+2022-04-17 22:18:18,093:INFO:Visual Rendered Successfully
+2022-04-17 22:18:18,094:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:18:18,097:INFO:Initializing plot_model()
+2022-04-17 22:18:18,097:INFO:plot_model(model=RpModel(num_terms=4636, num_topics=4), plot=topic_distribution, topic_num=None, save=False, system=True)
+2022-04-17 22:18:18,097:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:18:18,098:INFO:Checking exceptions
+2022-04-17 22:18:18,098:INFO:Importing libraries
+2022-04-17 22:18:18,107:INFO:save_param set to False
+2022-04-17 22:18:18,107:INFO:plot type: topic_distribution
+2022-04-17 22:18:18,108:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:18:18,108:INFO:Initializing assign_model()
+2022-04-17 22:18:18,108:INFO:assign_model(model=RpModel(num_terms=4636, num_topics=4), verbose=False)
+2022-04-17 22:18:18,108:INFO:Determining model type
+2022-04-17 22:18:18,108:INFO:model type: rp
+2022-04-17 22:18:18,108:INFO:Checking exceptions
+2022-04-17 22:18:18,108:INFO:Preloading libraries
+2022-04-17 22:18:18,109:INFO:Preparing display monitor
+2022-04-17 22:18:20,208:INFO:(1000, 12)
+2022-04-17 22:18:20,208:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:18:20,209:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:18:20,213:INFO:Sorting Dataframe
+2022-04-17 22:18:20,214:INFO:Rendering Visual
+2022-04-17 22:18:20,260:INFO:Visual Rendered Successfully
+2022-04-17 22:18:20,261:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:18:20,268:INFO:Initializing plot_model()
+2022-04-17 22:18:20,269:INFO:plot_model(model=RpModel(num_terms=4636, num_topics=4), plot=tsne, topic_num=None, save=False, system=True)
+2022-04-17 22:18:20,269:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:18:20,269:INFO:Checking exceptions
+2022-04-17 22:18:20,269:INFO:Importing libraries
+2022-04-17 22:18:20,278:INFO:save_param set to False
+2022-04-17 22:18:20,278:INFO:plot type: tsne
+2022-04-17 22:18:20,278:INFO:SubProcess assign_model() called ==================================
+2022-04-17 22:18:20,279:INFO:Initializing assign_model()
+2022-04-17 22:18:20,279:INFO:assign_model(model=RpModel(num_terms=4636, num_topics=4), verbose=False)
+2022-04-17 22:18:20,279:INFO:Determining model type
+2022-04-17 22:18:20,279:INFO:model type: rp
+2022-04-17 22:18:20,279:INFO:Checking exceptions
+2022-04-17 22:18:20,279:INFO:Preloading libraries
+2022-04-17 22:18:20,279:INFO:Preparing display monitor
+2022-04-17 22:18:22,006:INFO:(1000, 12)
+2022-04-17 22:18:22,006:INFO:assign_model() succesfully completed......................................
+2022-04-17 22:18:22,006:INFO:SubProcess assign_model() end ==================================
+2022-04-17 22:18:22,009:INFO:Fitting TSNE()
+2022-04-17 22:18:37,284:INFO:Sorting Dataframe
+2022-04-17 22:18:37,287:INFO:Rendering Visual
+2022-04-17 22:18:37,339:INFO:Visual Rendered Successfully
+2022-04-17 22:18:37,505:INFO:plot_model() succesfully completed......................................
+2022-04-17 22:18:37,511:INFO:Initializing plot_model()
+2022-04-17 22:18:37,511:INFO:plot_model(model=RpModel(num_terms=4636, num_topics=4), plot=umap, topic_num=None, save=False, system=True)
+2022-04-17 22:18:37,511:INFO:Topic selected. topic_num : Topic 0
+2022-04-17 22:18:37,511:INFO:Checking exceptions
+2022-04-17 22:18:37,511:INFO:Importing libraries
+2022-04-17 22:18:37,520:INFO:save_param set to False
+2022-04-17 22:18:37,520:INFO:plot type: umap
+2022-04-17 22:18:37,520:INFO:Fitting TfidfVectorizer()
+2022-04-17 22:18:37,560:INFO:Fitting KMeans()
+2022-04-17 22:18:37,917:INFO:Fitting UMAP()
+2022-04-17 22:18:40,728:INFO:Rendering Visual
+2022-04-17 22:18:40,864:INFO:Visual Rendered Successfully
+2022-04-17 22:18:40,864:INFO:plot_model() succesfully completed......................................
